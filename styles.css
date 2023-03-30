@@ -3,3 +3,89 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: #2ec4b6;
+  color: #fff;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px 0;
+}
+
+img {
+  display: block;
+  width: 400px;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+
+h3 {
+  max-width: 450px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ingredients {
+  max-width: 25%;
+}
+
+.steps {
+  max-width: 25%;
+}
+
+h2 {
+  text-align: center;
+  padding: 15px;
+}
+
+.fa-bowl-food {
+  font-size: 6rem;
+}
+
+.nutrition {
+  display: flex;
+  justify-content: center;
+}
+
+.nutrition p {
+  padding: 10px 20px;
+}
+
+.nutrition_heading {
+  padding: 10px 0;
+}
+
+.index_ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  list-style: none;
+}
+
+.index_ul a {
+  color: #fff;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.back_btn {
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  color: #fff;
+}
