@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Lato:wght@100;400;900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -12,6 +14,8 @@ body {
 h1 {
   text-align: center;
   padding: 20px 0;
+  font-family: Lato;
+  font-weight: 900;
 }
 
 img {
@@ -26,12 +30,18 @@ h3 {
   margin: 0 auto;
   text-align: center;
   padding: 20px 0;
+  font-family: Baskerville;
+  font-style: italic;
 }
 
 .wrapper {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+.wrapper li {
+  font-family: Lato;
 }
 
 .ingredients {
@@ -45,6 +55,8 @@ h3 {
 h2 {
   text-align: center;
   padding: 15px;
+  font-family: Lato;
+  font-weight: 100;
 }
 
 .fa-bowl-food {
@@ -54,6 +66,7 @@ h2 {
 .nutrition {
   display: flex;
   justify-content: center;
+  font-family: Lato;
 }
 
 .nutrition p {
