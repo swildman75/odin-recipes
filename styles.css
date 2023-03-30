@@ -18,11 +18,11 @@ h1 {
   font-weight: 900;
 }
 
-img {
-  display: block;
-  width: 400px;
-  margin: 0 auto;
-  border-radius: 15px;
+h2 {
+  text-align: center;
+  padding: 15px;
+  font-family: Lato;
+  font-weight: 100;
 }
 
 h3 {
@@ -32,6 +32,13 @@ h3 {
   padding: 20px 0;
   font-family: Baskerville;
   font-style: italic;
+}
+
+img {
+  display: block;
+  width: 400px;
+  margin: 0 auto;
+  border-radius: 15px;
 }
 
 .wrapper {
@@ -50,13 +57,6 @@ h3 {
 
 .steps {
   max-width: 25%;
-}
-
-h2 {
-  text-align: center;
-  padding: 15px;
-  font-family: Lato;
-  font-weight: 100;
 }
 
 .fa-bowl-food {
@@ -101,4 +101,6 @@ h2 {
   left: 30px;
   top: 30px;
   color: #fff;
+  font-family: Baskerville;
+  font-style: italic;
 }
